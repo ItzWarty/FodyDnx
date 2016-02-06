@@ -65,6 +65,14 @@ $weaver.ReferenceCopyLocalPaths = [System.Array]::CreateInstance([Microsoft.Buil
 $weaver.SolutionDir = $ProjectDir; # Can we find the sln by traversing tree? Used as one of many ways to find fodyweavers.xml.
 $weaver.DefineConstants = "";
 $weaver.NuGetPackageRoot = $nugetPackagesPath;
-Write-Output ($weaver | Out-String);
+Write-Host ($weaver | Out-String);
 $result = $weaver.Execute();
 Write-Host "Result: $result";
+
+# ghetto - return success/failure via string.
+# don't put anything after this.
+if ($result) {
+  Write-Output(0);
+} else { 
+  Write-Output(1);
+}

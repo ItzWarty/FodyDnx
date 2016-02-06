@@ -1,0 +1,107 @@
+"C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\DNX\Microsoft.DNX.targets"
+
+    <Dnx
+      RuntimeExe="$(RuntimeToolingExe)"
+      Condition="'$(_DesignTimeHostBuild)' != 'true'"
+      AppBase="$(MSBuildProjectDirectory)"
+      Module="$(_BuildModule)"
+      ModuleArguments="$(_BuildArguments)"
+      />
+      
+1>------ Build started: Project: Dargon.Ryu.Api, Configuration: Debug Any CPU ------
+1>
+1>  Build succeeded.
+1>           0 Warning(s).
+1>           0 Error(s).
+1>
+1>  Time elapsed 00:00:00.0015012
+1>
+2>------ Build started: Project: Dargon.Commons, Configuration: Debug Any CPU ------
+2>  C:\Users\Warty\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin\dnx.exe --appbase "V:\my-repositories\dargon\commons\dependencies\commons\src\Dargon.Commons" "C:\Users\Warty\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin\lib\Microsoft.Dnx.Tooling\Microsoft.Dnx.Tooling.dll" pack "V:\my-repositories\dargon\commons\dependencies\commons\src\Dargon.Commons" --configuration Debug --out "..\..\..\artifacts\bin\Dargon.Commons"
+2>  Microsoft .NET Development Utility Clr-x86-1.0.0-rc1-16231
+2>  Building Dargon.Commons for .NETFramework,Version=v4.5.1
+2>  Executing script 'prebuild' in project.json
+2>    Using Project dependency Dargon.Commons 1.0.0
+2>      Source: V:\my-repositories\dargon\commons\dependencies\commons\src\Dargon.Commons\project.json
+2>    Using Project dependency Dargon.Ryu.Api 1.0.0
+2>      Source: V:\my-repositories\dargon\commons\dependencies\ryu\src\Dargon.Ryu.Api\project.json
+2>    Using Assembly dependency fx/mscorlib 4.0.0
+2>      Source: C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\mscorlib.dll
+2>    Using Assembly dependency fx/System 4.0.0
+2>      Source: C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.dll
+2>    Using Assembly dependency fx/System.Core 4.0.0
+2>      Source: C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Core.dll
+2>    Using Assembly dependency fx/Microsoft.CSharp 4.0.0
+2>      Source: C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Microsoft.CSharp.dll
+2>  Executing script 'postbuild' in project.json
+2>  ALLUSERSPROFILE=C:\ProgramData
+2>  APPDATA=C:\Users\Warty\AppData\Roaming
+2>  CommonProgramFiles=C:\Program Files (x86)\Common Files
+2>  CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+2>  CommonProgramW6432=C:\Program Files\Common Files
+2>  COMPUTERNAME=WIN-E5C0B65L3GR
+2>  ComSpec=C:\WINDOWS\system32\cmd.exe
+2>  DNX_HOME=%USERPROFILE%\.dnx
+2>  DXSDK_DIR=C:\Program Files (x86)\Microsoft DirectX SDK (February 2007)\
+2>  FACADES_4.5=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades
+2>  FACADES_4.5.1=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades
+2>  FACADES_4.5.2=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades
+2>  FACADES_4.6=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades
+2>  FACADES_4.6.1=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades
+2>  FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+2>  FPS_BROWSER_USER_PROFILE_STRING=Default
+2>  HOMEDRIVE=C:
+2>  HOMEPATH=\Users\Warty
+2>  LOCALAPPDATA=C:\Users\Warty\AppData\Local
+2>  LOGONSERVER=\\MicrosoftAccount
+2>  MSBuildLoadMicrosoftTargetsReadOnly=true
+2>  NUMBER_OF_PROCESSORS=8
+2>  OPENSSL_CONF=C:\OpenSSL-Win32\bin\openssl.cfg
+2>  OS=Windows_NT
+2>  Path=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\B4VWCJNZ.PYX\NativeBinaries\x86;C:\Program Files (x86)\Microsoft DirectX SDK (February 2007)\Utilities\Bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;V:\Programs\Mathworks\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft DNX\Dnvm\;C:\Users\Warty\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin;C:\Users\Warty\.dnx\bin;c:\Ruby21\bin;C:\Users\Warty\AppData\Local\atom\bin;C:\Users\Warty\AppData\Roaming\npm;V:\texlive\2015\bin\win32
+2>  PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+2>  PkgDefApplicationConfigFile=C:\Users\Warty\AppData\Local\Temp\dev71D9.tmp
+2>  PROCESSOR_ARCHITECTURE=x86
+2>  PROCESSOR_ARCHITEW6432=AMD64
+2>  PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+2>  PROCESSOR_LEVEL=6
+2>  PROCESSOR_REVISION=3c03
+2>  ProgramData=C:\ProgramData
+2>  ProgramFiles=C:\Program Files (x86)
+2>  ProgramFiles(x86)=C:\Program Files (x86)
+2>  ProgramW6432=C:\Program Files
+2>  PROMPT=$P$G
+2>  PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+2>  PUBLIC=C:\Users\Public
+2>  SESSIONNAME=Console
+2>  SystemDrive=C:
+2>  SystemRoot=C:\WINDOWS
+2>  TEMP=C:\Users\Warty\AppData\Local\Temp
+2>  TMP=C:\Users\Warty\AppData\Local\Temp
+2>  USERDOMAIN=WIN-E5C0B65L3GR
+2>  USERDOMAIN_ROAMINGPROFILE=WIN-E5C0B65L3GR
+2>  USERNAME=Warty
+2>  USERPROFILE=C:\Users\Warty
+2>  VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+2>  VisualStudioDir=C:\Users\Warty\Documents\Visual Studio 2015
+2>  VisualStudioEdition=Microsoft Visual Studio Community 2015
+2>  VisualStudioVersion=14.0
+2>  VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+2>  VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+2>  VSLANG=1033
+2>  windir=C:\WINDOWS
+2>  Dargon.Commons -> V:\my-repositories\dargon\commons\dependencies\artifacts\bin\Dargon.Commons\Debug\Dargon.Commons.1.0.0.nupkg
+2>  Dargon.Commons -> V:\my-repositories\dargon\commons\dependencies\artifacts\bin\Dargon.Commons\Debug\Dargon.Commons.1.0.0.symbols.nupkg
+2>  Build succeeded.
+2>      0 Warning(s)
+2>      0 Error(s)
+2>  Time elapsed 00:00:02.0014836
+2>  Total build time elapsed: 00:00:02.0219291
+2>  Total projects built: 1
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Compiling with 'dnu build' outputs to ./bin/Debug/net451/Dargon.Commons.dll
+VS compiles with:
+2>  C:\Users\Warty\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin\dnx.exe --appbase "V:\my-repositories\dargon\commons\dependencies\commons\src\Dargon.Commons" "C:\Users\Warty\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin\lib\Microsoft.Dnx.Tooling\Microsoft.Dnx.Tooling.dll" pack "V:\my-repositories\dargon\commons\dependencies\commons\src\Dargon.Commons" --configuration Debug --out "..\..\..\artifacts\bin\Dargon.Commons"
+
+Output goes to: ..\..\..\artifacts\bin\[xproj_filename_no_ext]

@@ -1,0 +1,6 @@
+{
+    "description": "Experimental DNX Support for Fody",
+    "frameworks": {
+        "net451": { }
+    }
+}

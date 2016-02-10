@@ -1,5 +1,6 @@
 ﻿param (
-    [string]$ProjectDir = "V:\\my-repositories\\dargon\\commons\\dependencies\\commons\\src\\Dargon.Commons"
+    [Parameter(Mandatory=$True)]
+    [string]$ProjectDir
 )
 
 Write-Host "Entered Inner Script";
